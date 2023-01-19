@@ -122,7 +122,7 @@ a:hover{
   z-index: 99;
   font-family: "Open Sans", sans-serif !important;
   background-color: rgba(0, 35, 79, 0.87);
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .header-section-menu .content-wrapper {
   padding: 120px 0px;

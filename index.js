@@ -69,10 +69,12 @@ jQuery(document).ready(function () {
 
   jQuery(document).on("click", ".search img", function () {
     jQuery(".search img").toggleClass("close");
+    jQuery("body").toggleClass("position-fixed")
     //jQuery('body').attr('position' , 'fixed')
   });
   jQuery(document).on("click", ".hamburgur img", function () {
     jQuery(".hamburgur img").toggleClass("close");
+    jQuery("body").toggleClass("position-fixed")
     //jQuery('body').css('position' , 'fixed')
   });
 
